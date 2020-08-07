@@ -21,7 +21,7 @@ public class Sample {
 	private static final String serverURL = "http://vop.baidu.com/server_api";
 	  private static String token = "";
 	  //测试文件（支持格式pcm（不压缩）、wav（不压缩，pcm编码）、amr（压缩格式））
-	  private static final String testFileName = "D://Java//eclipse_code2//Scanner//resource//iat//ceshi.pcm"; // 百度语音提供技术支持
+	  private static final String testFileName = "resource/16k_10.pcm"; // 百度语音提供技术支持
 	  //put your own params here
 	  // 下面3个值要填写自己申请的app对应的值
 	  private static final String apiKey = "awkYDhTzbTGrUAxWRfudg6Zq";//你的apikey
