@@ -24,8 +24,8 @@ public class Sample {
 	  private static final String testFileName = "resource/16k_10.pcm"; // 百度语音提供技术支持
 	  //put your own params here
 	  // 下面3个值要填写自己申请的app对应的值
-	  private static final String apiKey = "awkYDhTzbTGrUAxWRfudg6Zq";//你的apikey
-	  private static final String secretKey = "luSVN5nTpxKupBRnjFmABBaQia81v4qy";//你的secretKey
+	  private static final String apiKey = "";//你的apikey
+	  private static final String secretKey = "";//你的secretKey
 	  private static final String cuid = "541b:3f:5af4:b2c9";//本地mac地址，无所谓参数，为了保持唯一
 	  public static void main(String[] args) throws Exception {
 	  
