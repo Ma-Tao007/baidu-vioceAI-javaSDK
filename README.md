@@ -1,5 +1,5 @@
 # baidu-vioceAI-javaSDK
-基于百度的语音识别java版本的demo
+基于百度的语音识别java版本的demo（[基于vuejs版本](https://github.com/Ma-Tao007/baidu-vioceAI-VueSDK)）
 
 
 # 运行方式
