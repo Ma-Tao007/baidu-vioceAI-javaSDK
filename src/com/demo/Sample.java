@@ -58,7 +58,7 @@ public class Sample {
 	    params.put("token", token);//根据你的参数获取的token
 	    params.put("dev_pid", 1537);//普通话识别代码
 	    params.put("cuid", cuid);//用户唯一标识，用来区分用户，计算UV值。建议填写能区分用户的机器 MAC 地址或 IMEI 码，长度为60字符以内。
-//	    params.put("len", pcmFile.length());//已废弃
+	    params.put("len", pcmFile.length());//字节数
 	    //本地语音文件的的二进制语音数据 ，需要进行base64 编码。与len参数连一起使用。
 	    params.put("speech", DatatypeConverter.printBase64Binary(loadFile(pcmFile)));
 	    // add request header
